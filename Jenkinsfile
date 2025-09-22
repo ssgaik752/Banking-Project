@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        git 'https://github.com/your-repo/banking-devops-project.git'
+        git 'https://github.com/ssgaik752/Banking-Project.git'
       }
     }
     stage('Build Docker') {
